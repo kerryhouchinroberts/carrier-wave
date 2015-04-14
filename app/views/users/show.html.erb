@@ -1,0 +1,5 @@
+<% @user.avatars.each do |avatar| %>
+<%= image_tag avatar.url %>
+<%= image_tag avatar.thumb.url %>
+<%= image_tag avatar.large.url %>
+<% end %>
